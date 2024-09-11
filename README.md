@@ -12,8 +12,16 @@ Vous allez apprendre à résoudre des problèmes simples en utilisant différent
 - la manipulation de chaines de caractères
 
 __Notes:__
+
 - Des tableaux ainsi que des gifs vous sont fournis en guise d'exemple, dans les gifs, les entrées utilisateurs sont en gras, il n'est pas nécessaire qu'ils soient en gras dans votre rendu.
 - On assume que l'utilisateur entre toujours un format de donnée valide. Il n'est donc pas nécessaire de faire une vérification de type ou de bornes lors de l'entrée de données __sauf lorsque précisé dans les consignes__.
+
+## :warning: Mises à jour après la disponibilité du TP  
+
+Cette section indique certaines modifications et erreurs corrigées dans ce README après la sortie du TP:  
+
+- Exercice 3: Ajout de l'arrondissement du résultat.  
+- Exercice 4: Correction concernant l'arrondissement du résultat.
 
 ## Mise en contexte:  
 
@@ -91,7 +99,7 @@ Consignes:
 
 - Demander la vitesse initiale de la boule
 - Demander l'angle de lancement
-- Afficher la distance maximale en `x` (en mètres)
+- Afficher la distance maximale en `x` (en mètres) **Arrondie à 2 chiffres après la virgule**
 
 **Note**: Vous pouvez lire un exemple pour la fonction sin [ici](https://www.w3schools.com/python/ref_math_sin.asp) !
 
@@ -104,7 +112,7 @@ Exemple:
 |:-|:-|
 | Vitesse initiale (en m/s): | 20.5 |
 | Angle de lancement (en degrés): | 30 |
-| La distance maximale en x est de 37.14m |
+| La distance maximale en x est de 37.14m ||
 
 ## Exercice 4: 
 Pour une cérémonie d'ouverture en grandes pompes, le comité d'organisation des JO aimerait savoir s'il est possible d'utiliser un certain modèle de bateau électrique. Afin de s'aiguiller dans cette décision, ils vous demandent de mettre en place un script permettant de calculer la distance pouvant être effectuée en fonction du pourcentage de batterie.  
@@ -118,7 +126,7 @@ Consignes:
   - Entre 5% et 10% de batterie, chaque pourcentage équivaut à 2.5km
   - Entre 0% et 5% de batterie, chaque pourcentage équivaut à 6km  
 *La borne inférieure n'est pas incluse.
-- L'affichage la distance doit être arrondi au km près.  
+- L'affichage la distance doit être ~~arrondi au km près~~ arrondie à un chiffre après la virgule.  
 
 
 Exemple:
