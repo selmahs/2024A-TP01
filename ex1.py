@@ -7,13 +7,7 @@ discipline = input("Dans quelle discipline?")
 categorie = input("Dans quelle categorie specifique?")
 record = input("Quel est le record?")
 
-print(f"""Nouveau record:
+print(f"""Nouveau records:
 ------------------------------
 {date} - {discipline} - {categorie}:
         {athlete} ({country}) - {record}""")
-#Demander la nationalité de l'athlète
-#Demander le nom de l'athlète
-#Demander la date du record
-#Demander la discipline
-#Demander la catégorie, qui peut être nulle
-#Demander le record
