@@ -1,8 +1,8 @@
 #TODO: Analyser la chaîne de caractères saisie et compter le nombre de médailles.
 #      Attention si la chaîne est invalide, un message d'erreur est attendu.
 
-country = input("Pays concerne ?")
-code_medals = input("Chaine representant les medailles ?")
+country = input ("Pays concerné ? ")
+code_medals = input("Chaine représentant les médailles ? ")
 G= S =B =0
 for letter in code_medals:
     if letter == "G": G+=1
@@ -10,6 +10,6 @@ for letter in code_medals:
     if letter == "B": B+=1
 
 print(f"""{country}:
-- {G} Or
-- {S} Argent 
+- {G} OR
+- {S} Argent
 - {B} Bronze""")
